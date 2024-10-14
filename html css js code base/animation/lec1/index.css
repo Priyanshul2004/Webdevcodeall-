@@ -1,0 +1,24 @@
+
+
+.box{
+    height: 60px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+@keyframes anim {
+    from{
+         left: 0;
+         background-color: red;
+         rotate: 0;
+    }
+    to{
+         left: 60%;
+         background-color: yellowgreen;
+         rotate: 180deg;
+    }
+}

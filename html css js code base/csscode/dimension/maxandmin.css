@@ -1,0 +1,10 @@
+.max{
+    border: 2px solid black;
+    max-height: 90px;
+    overflow: scroll;
+}
+.radio{
+    border: 2px solid black;
+    margin: 30px;
+    min-height: 80px;
+}

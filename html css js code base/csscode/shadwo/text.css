@@ -1,0 +1,5 @@
+.radio{
+    text-shadow: 2px 2px 3px red;
+    /* double shadow  */
+    text-shadow: 3px 3px 3px yellow,10px 8px 8px green ;
+}

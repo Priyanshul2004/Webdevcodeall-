@@ -1,0 +1,14 @@
+{
+  "name": "backend-express-by-pw",
+  "version": "1.0.0",
+  "description": "ths is express lern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "priyanshul",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

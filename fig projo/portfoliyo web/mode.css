@@ -1,0 +1,274 @@
+/* Reset margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Navigation styling */
+#nav1 {
+    height: 62px;
+    width: 100%;
+    background-color: #020617;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(156, 163, 175);
+    padding: 0 120px;
+}
+
+.nav1a {
+    display: flex;
+    gap: 20px;
+}
+
+.nav1a h1 {
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.nav1a h1:hover {
+    text-decoration: underline;
+    color: #00adb5;
+}
+
+/* Main section styling */
+#main1 {
+    height: 616px;
+    width: 100%;
+    background-color: #111827;
+    display: flex;
+    justify-content: space-between;
+    padding: 96px;
+    gap: 100px;
+    color: white;
+}
+
+.main11 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+.f1 {
+    color: #eab308;
+    font-size: 16px;
+}
+
+.f2 {
+    color: white;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.f3 {
+    color: #606775;
+    font-size: 16px;
+}
+
+.main11 button {
+    height: 43px;
+    width: 123px;
+    background-color: #facc15;
+    border-radius: 20px;
+    border: none;
+    color: #111827;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.main11 button:hover {
+    background-color: #e0a500;
+    transform: scale(1.05);
+}
+
+.main12 {
+    padding-right: 20px;
+}
+
+/* Mid section styling */
+#mid1 {
+    height: 730px;
+    width: 100%;
+    background-color: #020617;
+    padding: 96px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mycol {
+    color: white;
+}
+
+.sevcol {
+    color: #facc15;
+}
+
+.mid1a {
+    color: #606775;
+}
+
+.threediv {
+    height: 300px;
+    width: 250px;
+    background-color: rgb(17, 24, 39);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    padding: 32px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.threediv:hover {
+    background-color: #1f2937;
+    transform: scale(1.02);
+}
+
+.threediv h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    transition: color 0.3s ease;
+}
+
+.threediv:hover h1 {
+    color: #facc15;
+}
+
+.col454 {
+    color: #606775;
+}
+
+.divflex {
+    display: flex;
+    flex-direction: row;
+    column-gap: 270px;
+}
+
+/* Mid2 section styling */
+#mid2 {
+    height: 1006px;
+    width: 100%;
+    background-color: rgb(17, 24, 39);
+    padding-top: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+
+.portcol {
+    color: #eab308;
+}
+
+#mid2 pre {
+    color: #606775;
+}
+
+.gallary1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.gallary12 {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.precolyl {
+    color: #eab308;
+}
+
+.datewhite {
+    color: white;
+}
+
+/* Last section styling */
+#last1 {
+    height: 602px;
+    width: 100%;
+    background-color: #111827;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+    row-gap: 35px;
+}
+
+.div3last{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    column-gap: 150px;
+}
+
+.colcon{
+    color: #eab308;
+}
+
+.uscol{
+    color: white;
+}
+
+.flex11{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.inputfl{
+    background-color:  #2b3748;
+    height: 35px;
+}
+
+.inputf2{
+    background-color:  #2b3748;
+    height: 65px;
+}
+
+.btn{
+    background-color: #eab308;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    
+}
+
+.colpretaglast{
+    color: #606775;
+}
+
+.inputfl::placeholder,
+.inputf2::placeholder {
+    padding-left: 20px;
+}
+
+.inputfl, 
+.inputf2 {
+    padding-left: 20px;
+}
+
+.gapping{
+    margin-left: 20px;
+}
+
+
+
+/* Remove horizontal scrolling */
+html, body {
+    overflow-x: hidden;
+}

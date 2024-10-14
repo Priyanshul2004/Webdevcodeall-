@@ -1,0 +1,14 @@
+{
+  "name": "full-beckend-by-pw",
+  "version": "1.0.0",
+  "description": "this is db and js connection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Priyanshul",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.3.2"
+  }
+}

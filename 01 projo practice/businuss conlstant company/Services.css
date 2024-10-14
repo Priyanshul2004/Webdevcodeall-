@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#serviceshd1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#fourtempinser {
+    margin-top: 100px;
+}
+
+#yckvc {
+    height: 250px;
+    width: 650px;
+    margin-left: 27%;
+    border: 2px solid black;
+    display: flex;
+    gap: 30px;
+}
+
+#yckvc img {
+    height: 247px;
+}
+
+#continserv {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#btnofser {
+    height: 45px;
+    width: 100px;
+    background: none;
+    transition: background-color 0.7s ease 0.3s;
+}
+
+#btnofser:hover {
+    background-color: rgb(193, 106, 106);
+    color: white;
+}
+
+#fontszidbd{
+    font-size: 27px;
+}
+

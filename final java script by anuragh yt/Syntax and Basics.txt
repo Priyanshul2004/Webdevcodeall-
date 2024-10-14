@@ -1,0 +1,119 @@
+Syntax and Basics
+
+Variables and Data Types
+Operators (Arithmetic, Comparison, Logical)
+Conditional Statements (if, else, switch)
+Loops (for, while, do-while)
+Functions (declaration, expression, arrow functions)
+Scope (global, local, block)
+Arrays and Objects
+String Methods
+Template Literals
+Type Coercion
+DOM Manipulation
+
+Selecting Elements (getElementById, querySelector)
+Changing Element Content (innerHTML, textContent)
+Modifying Attributes
+Adding and Removing Elements
+Event Handling (click, mouseover, keyup, etc.)
+Basic ES6 Features
+
+let and const
+Arrow Functions
+Template Literals
+Default Parameters
+Spread and Rest Operators
+JSON
+
+JSON Syntax
+Parsing JSON
+Stringifying Objects
+Medium
+Advanced Functions
+
+Closures
+Callbacks
+Higher-Order Functions
+IIFE (Immediately Invoked Function Expressions)
+Function Context (call, apply, bind)
+Asynchronous JavaScript
+
+Promises
+Async/Await
+Fetch API
+AJAX (XMLHttpRequest)
+Advanced ES6+ Features
+
+Destructuring (Arrays and Objects)
+Modules (import, export)
+Classes and Inheritance
+Symbol
+Iterators and Generators
+Error Handling
+
+try, catch, finally
+Custom Errors
+Error Objects
+Local Storage and Session Storage
+
+Storing and Retrieving Data
+Removing Data
+Hard
+Advanced Asynchronous JavaScript
+
+Event Loop
+Microtasks and Macrotasks
+Web Workers
+Design Patterns
+
+Singleton
+Module
+Observer
+Factory
+Performance Optimization
+
+Debouncing and Throttling
+Memory Management
+Profiling and Performance Tools
+Functional Programming
+
+Pure Functions
+Immutability
+Currying
+Composition
+Advanced Data Structures and Algorithms
+
+Linked Lists
+Trees (Binary, AVL, etc.)
+Graphs
+Sorting and Searching Algorithms
+Testing
+
+Unit Testing (Jest, Mocha)
+Integration Testing
+End-to-End Testing (Cypress, Selenium)
+Security
+
+Cross-Site Scripting (XSS)
+Cross-Site Request Forgery (CSRF)
+Content Security Policy (CSP)
+Authentication and Authorization
+Build Tools and Workflow Automation
+
+Webpack
+Babel
+npm Scripts
+Task Runners (Gulp, Grunt)
+Server-Side JavaScript
+
+Node.js Basics
+Express.js
+Middleware
+REST APIs
+Web APIs
+
+Canvas
+WebSockets
+Service Workers
+IndexedDB

@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: 100vh;
+    width: 100%;
+}
+.contbar{
+
+    background-color: #235eb0;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 17px;
+    padding-bottom: 6px;
+
+}
+.right{
+    display: flex;
+    justify-content:space-between;
+    gap:20px;
+    padding-right: 60px;
+}
+.left{
+    padding-left: 60px;
+}
+.fine{
+    font-size: 30px;
+}
+.phone{
+    height: 30px;
+    width: 24px;
+}
+
+/* navbar */
+
+.navbar{
+    background-color: white;
+    padding-top: 17px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6px;
+}
+.nleft{
+    padding-left: 20px;
+    display: flex;
+    gap: 40px;
+}
+.nright{
+    padding-right: 60px;
+    display: flex;
+    gap: 40px;
+
+}
+.nicon{
+    width: 24px;
+}
+.nbtn{
+    border: solid 1px solid white;
+    background-color: yellow;
+    height: 32px;
+    width: 100px;
+
+}
+
+/* m1 */
+
+.m1{
+
+    background: url(m1.jpg);
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+}
+.mpara{
+    padding-left: 51%;;
+}
+#midhead{
+    color: #e9ebe3;
+    font-size:55px;
+}
+#midcall{
+    background-color: yellow;
+    color: black;
+    font-size:35px;
+    width:50%;
+    text-align: center;
+    
+}
+
+/* m2 */
+.m2{
+    background-color: rgb(214, 214, 114);
+    height: 20vh;
+    width: 100%;
+}

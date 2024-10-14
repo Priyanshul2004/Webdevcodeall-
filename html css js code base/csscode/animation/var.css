@@ -1,0 +1,12 @@
+
+.container{
+    border: 1px solid black;
+    
+    height: 400px;
+    width: 400px;
+}
+.box{
+    border: 1px solid black; 
+    --dark-red:#921a2c;
+    color: var(--dark-red);
+}   

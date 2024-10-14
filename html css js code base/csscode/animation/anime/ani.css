@@ -1,0 +1,49 @@
+.container{
+    border: 1px solid black ;
+    background-color: yellow;
+    height: 300px;
+
+}
+.box{
+    border: 1px solid black;
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    
+
+    animation-name:priyanshul;
+    animation-duration: 2.5s;
+    animation-iteration-count:infinite;
+    /* animation-timing-function: ease-in; */
+    animation-timing-function: ease-out;
+    animation-delay: 1s ;
+    /* animation-fill-mode: backwards; */
+
+}
+
+@keyframes priyanshul{
+   0%{
+      width: 212px;
+      background-color: brown;
+   }
+   30%{
+       width: 35%;
+       background-color: aqua;
+   }
+   60%{
+      width: 70%;
+      background-color: burlywood;
+   }
+   100%{
+      width: 100%;
+      background-color: green;
+   }
+}
+/* @keyframes priyanshul {
+    from{
+        width: 212px;
+    }
+    to{
+        width: 1500px;
+    }
+} */

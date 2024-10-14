@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.planefirst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.planefirst h1{
+    font-size: 60px;
+    color: #0C3C60;
+}
+
+.planefirst h5{
+    color: #0C3C60;
+}
+
+.planebox1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#planebx11{
+    height: 70vh;
+    width: 450px;
+    border: 2px solid #CCCCCC;
+}
+
+#fnocvmn{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #CCCCCC;
+   
+}
+
+#fnocvmn h2{
+    margin-top: 20px;
+}
+
+#spanplane {
+    font-size: 90px;
+    color:#0C3C60;
+}
+
+#fnocvmn button{
+    height: 40px;
+    width: 150px;
+    background-color: #0C3C60;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#secplnsect{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}

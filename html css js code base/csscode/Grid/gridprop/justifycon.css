@@ -1,0 +1,17 @@
+.container{
+    background-color:yellow;
+    border: 1px solid black;
+    grid-gap: 10px;
+    display: grid;
+
+    width: 700;
+    height: 800px;
+    grid-template-columns:100px 100px 100px;
+    grid-template-rows: 100px 100px; 
+    justify-content: center;
+}
+.box{
+    background-color: aliceblue;
+    border: 1px solid black;
+   
+}

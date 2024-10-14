@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.Abotsect1{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.Abotsect2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#text1about1{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    margin-top: 90px;
+}
+
+#aboutimg11{
+    height: 670px;
+}
+
+.Abotsect3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 70px;
+}
+
+#team111{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#preid11111{
+    margin-top: 17px;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 22px;
+}
+
+#aboutsec1234{
+    display: flex;
+    justify-content:space-between;
+    gap: 120px;
+}
+
+#photo8634{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#photo8631{
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+#aboutimg12345{
+    height: 400px;
+    width: 450px;
+    object-fit: cover;
+}
+
+#fitcont573{
+    margin-top: 13px;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+#btnabourt{
+    text-decoration: none;
+    height: 60px;
+    width: 230px;
+    margin-left: 43%;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(89, 89, 176);
+    color: white;
+}
+
+#btnabourt:hover{
+    background-color: rgb(205, 109, 109);
+}
